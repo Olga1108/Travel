@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" 
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrapper">
+      <header class="header">
+        <div class="container">
+            <div class="inner-header">
+                <a href="/" class="logo-link"><img class="inner-header__logo" src="images/logo1.png" alt="logo"></a>
+                <button class="btn">sign in</button>
+                <nav class="nav-menu">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#services">services</a></li>
+                        <li class="menu__item"><a href="#about">about</a></li>
+                        <li class="menu__item"><a href="#contact">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="banner" id="services">
+            <div class="container">
+                <h1 class="big-title">Our Mission</h1>
+                <p class="main-text">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500.
+                </p>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500, when an unknown.
+                </p>
+            </div>
+        </section>
+        <section class="team" id="work-with-us">
+            <div class="container">
+                <h2 class="team__section-title">Team</h2>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img class="card-avatar" src="images/avatar-1.png"
+                            srcset="images/avatar-1.png 1x,
+                                    images/avatar-1_x2.png 2x"
+                            alt="avatar-1">
+                        <p class="card-sign">John Doe</p>
+                        <p class="card-sign__position">Founder & CEO</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-avatar" src="images/avatar-2.png"
+                            srcset="images/avatar-2.png 1x,
+                                    images/avatar-2_x2.png 2x"
+                            alt="avatar-2">
+                        <p class="card-sign">John Doe</p>
+                        <p class="card-sign__position">Co-Founder</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-avatar" src="images/avatar-3.png"
+                            srcset="images/avatar-3.png 1x,
+                                    images/avatar-3_x2.png 2x"
+                            alt="avatar-3">
+                        <p class="card-sign">John Doe</p>
+                        <p class="card-sign__position">Investor</p>
+                    </div>
+                </div>
+                <button class="team-btn">work with us</button>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Newsletter</h2>
+                <p class="contact__text">
+                    Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500, when an unknown.
+                </p> 
+                <form>
+                    <input type="email" placeholder="Enter Email" id="email" class="contact__input" required><label for="email">&nbsp;</label>
+                </form>
+            </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+            <div class="upper-footer">
+                <nav class="nav-menu">
+                    <ul class="menu footer__menu">
+                        <li class="menu__item footer__menu__item"><a href="#about">about</a></li>
+                        <li class="menu__item footer__menu__item"><a href="#contact">FAQ</a></li>
+                        <li class="menu__item footer__menu__item"><a href="#work-with-us">work with us</a></li>
+                    </ul>
+                </nav>
+                <div class="social-list">
+                    <div class="social-list__border">
+                        <a href="http://google.com" target="_blank"><img class="social-icon" src="images/mail.svg" alt="mail"></a>
+                    </div>
+                    <div class="social-list__border">
+                        <a href="http://facebook.com" target="_blank"><img class="social-icon" src="images/facebook.svg" alt="mail"></a>
+                    </div>
+                    <div class="social-list__border">
+                        <a href="http://twitter.com" target="_blank"><img class="social-icon" src="images/twitter.svg" alt="mail"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p class="bottom-footer__item">Privacy Policy</p>
+                <p class="bottom-footer__item">Terms and Conditions</p>
+                <p class="bottom-footer__item"> &copy; Company.LLC 2014</p>
+            </div>
+        </div>
+      </footer>
+  </div>  
+</body>
+</html>
